@@ -1,0 +1,65 @@
+# Binaries
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# builded frontend bundles
+public/
+
+# Frontend ignorables
+
+# Logs
+client/gomongocrud/logs
+client/gomongocrud/*.log
+client/gomongocrud/npm-debug.log*
+client/gomongocrud/yarn-debug.log*
+client/gomongocrud/yarn-error.log*
+client/gomongocrud/pnpm-debug.log*
+client/gomongocrud/lerna-debug.log*
+
+client/gomongocrud/node_modules
+client/gomongocrud/dist
+client/gomongocrud/dist-ssr
+client/gomongocrud/*.local
+
+# Editor directories and files
+client/gomongocrud/.vscode/*
+client/gomongocrud/!.vscode/extensions.json
+client/gomongocrud/.idea
+client/gomongocrud/.DS_Store
+client/gomongocrud/*.suo
+client/gomongocrud/*.ntvs*
+client/gomongocrud/*.njsproj
+client/gomongocrud/*.sln
+client/gomongocrud/*.sw?
+
+
+# Dependency directories
+vendor/
+go.sum
+go.sum.new
+
+# Go binary
+*.test
+
+# Output of go tooling
+/_test/
+*.prof
+
+# Compiled Go source
+*.test
+*.prof
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Output files
+*.out
