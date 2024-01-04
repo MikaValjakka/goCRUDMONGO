@@ -1,0 +1,30 @@
+# goCRUD - Fullstack Web Application
+
+Tämä projekti demonstroi, miten käyttää Go-kieltä ja Gin-webkehystä luomaan yhteys MongoDB-tietokantaan eri reiteillä käyttäjien lisäämiseksi/lukemiseksi/päivittämiseksi/poistamiseksi. Lisäksi projekti sisältää React-frontendin Bootstrap-tyylittelyllä, joka tekee fullstack-sovelluksesta visuaalisesti houkuttelevamman.
+
+## Tietokantayhteys
+
+Projekti hyödyntää Go-kieltä ja Gin-webkehystä luodakseen tehokkaan tietokantayhteyden MongoDB-tietokantaan. Käyttämällä eri reittejä voit suorittaa seuraavat toiminnot:
+
+- **Luo käyttäjä:** Luo uusi käyttäjä tietokantaan.
+- **Hae käyttäjät:** Hae kaikki käyttäjätiedot tietokannasta.
+- **Päivitä käyttäjä:** Päivitä olemassa olevan käyttäjän tietoja.
+- **Poista käyttäjä:** Poista käyttäjä tietokannasta.
+
+## Frontend
+
+Projekti sisältää React-frontendin, joka on tyylitelty Bootstrapin avulla. Tämä tekee sovelluksesta visuaalisesti houkuttelevan ja helposti käytettävän.
+
+## Projektin Tarkoitus
+
+Tämän projektin tarkoitus on näyttää motivaatiota Go-kielen nopeaan oppimiseen ja sen käyttöön perusweb-sovelluksen CRUD-toiminnallisuuksien toteuttamiseen.
+
+---
+
+Lisätietoja Go-kielestä, Gin-webkehystä ja MongoDB:stä löydät niiden virallisilta verkkosivuilta:
+
+- [Go-kieli](https://golang.org/)
+- [Gin-webkehys](https://gin-gonic.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+Voit myös kloonata tämän projektin ja tutkia koodia oppiaksesi lisää!
