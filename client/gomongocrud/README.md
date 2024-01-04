@@ -63,7 +63,12 @@ setUserData({
 - Muussa tapauksessa näytetään virheviesti.
 
 ```javascript
-koodia;
+ if (response.ok) {
+          console.log("User created successfully!");
+          navigate("/UsersBS");
+        } else {
+          console.error("Failed to create user");
+        }
 ```
 
 ## Luo käyttäjä (Create User):
