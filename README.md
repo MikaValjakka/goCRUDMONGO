@@ -6,10 +6,13 @@ Tämä projekti demonstroi, miten käyttää Go-kieltä ja Gin-webkehystä luoma
 
 Projekti hyödyntää Go-kieltä ja Gin-webkehystä luodakseen tehokkaan tietokantayhteyden MongoDB-tietokantaan. Käyttämällä eri reittejä voit suorittaa seuraavat toiminnot:
 
-- **Luo käyttäjä:** Luo uusi käyttäjä tietokantaan.
-- **Hae käyttäjät:** Hae kaikki käyttäjätiedot tietokannasta.
-- **Päivitä käyttäjä:** Päivitä olemassa olevan käyttäjän tietoja.
-- **Poista käyttäjä:** Poista käyttäjä tietokannasta.
+- **Pääsivu:** Pääsivu sovellukseen.
+  ![alt text](https://github.com/MikaValjakka/goCRUDMONGO/blob/master/readmeImages/mainPage.png)
+- **Hae käyttäjät/Päivitä käyttäjä/Poista käyttäjä** Hae kaikki käyttäjätiedot tietokannasta.
+   ![alt text](https://github.com/MikaValjakka/goCRUDMONGO/blob/master/readmeImages/UserPage.png)
+- **Luo käyttäjä:** Luo uusi käyttäjä.
+![alt text](https://github.com/MikaValjakka/goCRUDMONGO/blob/master/readmeImages/createUserPage.png)
+
 
 ## Frontend
 
