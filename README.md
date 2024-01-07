@@ -20,7 +20,7 @@ Projekti sisältää React-frontendin, joka on tyylitelty Bootstrapin avulla. T�
 
 ## Projektin Tarkoitus
 
-Tämän projektin tarkoitus on näyttää motivaatiota Go-kielen nopeaan oppimiseen ja sen käyttöön perusweb-sovelluksen CRUD-toiminnallisuuksien toteuttamiseen.
+Tämän projektin tarkoitus on näyttää motivaatiota Go-kielen nopeaan oppimiseen (projekti valmistettiin noin 4 päivässä) ja sen käyttöön perusweb-sovelluksen CRUD-toiminnallisuuksien toteuttamiseen.
 
 ---
 
