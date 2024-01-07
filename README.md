@@ -31,3 +31,10 @@ Lisätietoja Go-kielestä, Gin-webkehystä ja MongoDB:stä löydät niiden viral
 - [MongoDB](https://www.mongodb.com/)
 
 Voit myös kloonata tämän projektin ja tutkia koodia oppiaksesi lisää!
+## Docker-asennus
+
+Jos haluat käyttää tätä projektia Dockerin avulla, voit noutaa ja suorittaa sen seuraavilla komennoilla:
+
+```bash
+docker pull mikavee/portfoliorepo:gocrud
+docker run -p 8080:8080 mikavee/portfoliorepo:gocrud
