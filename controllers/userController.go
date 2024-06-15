@@ -17,8 +17,11 @@ import (
 var userCollection *mongo.Collection
 
 func init() {
-	// Initialize MongoDB collection once -> PS. In production the database is set to cloud
-	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017")
+	// local connection
+	//clientOptions := options.Client().ApplyURI("mongodb://localhost:27017")
+
+	// cloud connection
+	clientOptions := options.Client().ApplyURI("mongodb+srv://mikapvaljakka:8b2O9NUho7Bm6lAU@cluster0.irxwjvc.mongodb.net/?retryWrites=true&w=majority")
 	client, err := mongo.Connect(context.Background(), clientOptions)
 	if err != nil {
 		log.Fatal(err)
