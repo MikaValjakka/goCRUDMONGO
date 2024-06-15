@@ -38,7 +38,8 @@ function CreateUsersBS() {
       if (selectedUser) {
         // Make a PUT request to update the user
         const response = await fetch(
-          `http://localhost:8080/users/${selectedUser._id}`,
+          `/users/${selectedUser._id}`,
+          // RElative URL
           {
             method: "PUT",
             headers: {
@@ -56,7 +57,8 @@ function CreateUsersBS() {
         }
       } else {
         // Make a POST request to create a new user
-        const response = await fetch("http://localhost:8080/users", {
+        const response = await fetch("/users", {
+          // const response = await fetch("/users", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -11,7 +11,8 @@ function UsersBS() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:8080/users");
+        const response = await fetch("/users"); // Relative URL
+
         const data = await response.json();
         setUsers(data.users);
         setLoading(false); // Set loading to false once data is fetched
@@ -27,7 +28,8 @@ function UsersBS() {
 
   const deleteUser = async (userId) => {
     try {
-      const response = await fetch(`http://localhost:8080/users/${userId}`, {
+      const response = await fetch(`/users/${userId}`, {
+        // const response = await fetch(`/users/${userId}`, {
         method: "DELETE",
       });
 
